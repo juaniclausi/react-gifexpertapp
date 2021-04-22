@@ -1,0 +1,30 @@
+npx create-react-app my-app
+cd my-app
+npm start
+
+1. En package.json, dependencies: "react-scripts": "3.4.4"
+
+2. Eliminar package-lock.json
+
+3. Ejecute "rd -r node_modules" en el proyecto (windows)
+
+4. npm install
+
+5. npm start
+
+const apiKey = 'izZufBa9rdd0ZcqPT7nAP5rkhykaagIQ';
+
+rafcp Crea un componente, con react y propTypes importado
+
+imr importa libreria react.
+
+Explicacion:
+Los Hooks son funciones que nos ayudan a manejar el State de react entre componentes y sus ciclos de vida, podemos usar usar propiedades de react(state, otros hooks, etc), y solo pueden ser usados en componentes funcionales(functional components), hooks como el useEffect vienen sustituyendo funciones del ciclo de vida de los class components de react como componenDidMount, componentWillMount, etc
+
+Los helpers se parecen mas a los servicios(pueden actuar como uno si lo 
+deseas), pueden ser usados en componentes, en hooks, y en javascript puro, no son obligatorios(ya que bien puedes mantener la logica del helper en el componente), pero ayuda a tener tu proyecto mas estructurado, y tu codigo mas legible y reutilizable.
+
+Cuando usar hooks y cuando usar helpers?
+Los hooks los vas a utilizar cuando trabajes en una aplicacion que utilice functional Components, si trabajas en una aplicacion que aun use Class Components, los hooks no te van a servir porque los class components utilizan sus propias funciones para manejar su ciclo de vida.
+
+Los helpers quedan a consideracion de cada uno, puedes usarlo en apps de react con functional components, con class components, incluso puedes aplicarlo a otras tecnologias y lenguajes de programacion.
